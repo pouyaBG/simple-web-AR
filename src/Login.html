@@ -25,7 +25,7 @@
               <form>
                 <div>
                   <label for="input-group-1" class="block mb-2 text-sm font-medium text-gray-900">Your Email</label>
-                  <div class="relative mb-6">
+                  <div class="relative mb-1">
                     <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                       <svg aria-hidden="true" class="w-5 h-5 text-black" fill="currentColor" viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg">
@@ -37,10 +37,12 @@
                       class="bg-gray-50 border-2 border-gray-200 text-black text-sm rounded-lg   block w-full pl-10 p-3 transition-all  hover:border-[#0690cf] outline-0 focus:border-[#0690cf] shadow focus:shadow-lg"
                       placeholder="example@example.com">
                   </div>
-                  <div class="mt-4">
+                  <!-- error for email -->
+                  <p class="text-red-500 text-[15px] font-[500] mb-3 ml-1">please enter corect Email!</p>
+                  <div class="mt-2">
                     <label for="input-group-1" class="block mb-2 text-sm font-medium text-gray-900">Your
                       Password</label>
-                    <div class="relative mb-6">
+                    <div class="relative mb-1">
                       <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                         <svg class="w-5 h-5 " fill="currentColor" viewBox="0 0 15 15"
                           xmlns="http://www.w3.org/2000/svg">
@@ -56,10 +58,12 @@
                         class="bg-gray-50 border-2 border-gray-200  text-gray-900 text-sm rounded-lg   block w-full pl-10 p-3 transition-all  hover:border-[#0690cf] outline-0 focus:border-[#0690cf] shadow focus:shadow-lg "
                         placeholder="****">
                     </div>
+                    <!-- error for pass -->
+                    <p class="text-red-500 text-[15px] font-[500] py-2 ml-1">please enter corect pass!</p>
                     <div class="mt-4 flex w-full flex-col justify-between sm:flex-row">
                       <!-- Remember me -->
-                      <div><input type="checkbox" id="remember" class="cursor-pointer hover:text-[#0690cf]" /><label for="remember"
-                          class="mx-2 text-sm cursor-pointer hover:text-[#0690cf]">Remember
+                      <div><input type="checkbox" id="remember" class="cursor-pointer hover:text-[#0690cf]" /><label
+                          for="remember" class="mx-2 text-sm cursor-pointer hover:text-[#0690cf]">Remember
                           me</label></div>
                       <!-- Forgot password -->
                       <div>
@@ -67,7 +71,8 @@
                       </div>
                     </div>
                     <div class="my-10">
-                      <button class="w-full rounded-[12px] bg-[#0690cf] p-2.5 shadow-md hover:shadow-xl transition-all text-white text-[16px]">Login</button>
+                      <button
+                        class="w-full rounded-[12px] bg-[#0690cf] p-2.5 shadow-md hover:shadow-xl transition-all text-white text-[16px]">Login</button>
                     </div>
               </form>
             </div>
